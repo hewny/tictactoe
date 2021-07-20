@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.header {
+    background-color: lightsalmon;
+    width: 70%;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 30px auto 0 auto;
+}
+
+.versus {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.versus h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.versus h3:hover {
+    background-color: lightseagreen;
+}
+
+.game-piece {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.game-piece h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.game-piece h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.game-piece h3:hover {
+    background-color: lightseagreen;
+}
+
+.selected {
+    background-color: lightseagreen;
+}
+
+.board-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    min-width: 600px;
+    margin: 15px auto;
+    padding: auto;
+}
+
+.board-cell {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 4em;
+    width: 200px;
+    height: 200px;
+}
+
+.board-cell:hover {
+    cursor: default;
+    background-color: lightseagreen;
+}
+
+.play-again {
+    display: none;
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+.play-again:hover {
+    background-color: lightseagreen;
+}
+
+.show-button {
+    display: block;
+}
