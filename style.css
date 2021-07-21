@@ -31,6 +31,7 @@ body {
 
 .versus h3:hover {
     background-color: lightseagreen;
+    cursor: default;
 }
 
 .game-piece {
@@ -41,7 +42,7 @@ body {
     margin: 0 auto;
 }
 
-.game-piece h2{
+.game-piece h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,15 +59,15 @@ body {
     height: 30px;
     width: 80px;
     border: 2px solid black;
-    background-color: whitesmoke;
 }
 
 .game-piece h3:hover {
     background-color: lightseagreen;
+    cursor: default;
 }
 
 .selected {
-    background-color: lightseagreen;
+    background-color: lightseagreen !important;
 }
 
 .board-wrapper {
@@ -109,6 +110,20 @@ body {
     background-color: lightseagreen;
 }
 
+.start {
+    display: none;
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    margin: 5px auto;
+}
+
+.start:hover {
+    background-color: lightseagreen;
+    cursor: default;
+}
+
 .play-again {
     display: none;
     height: 30px;
@@ -119,6 +134,7 @@ body {
 
 .play-again:hover {
     background-color: lightseagreen;
+    cursor: default;
 }
 
 .show-button {
